@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript" src="javascript8/searching.js"></script>
+</style>
+<title>
+ARCHIEVES ADVANCED SEARCH
+</title>
+
+</head>
+<body background="img/newspaper6.jpg" width=1700 height=400 alt="e-newspaper">
+<marquee width="100%"><h1 style=color:dodgerblue;>WELCOME TO GLOBAL TIMES</h1></marquee>
+<img src="img/logo.png" align="left" width="200" height="100"/>
+<br>
+<br><br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+     PUBLICATIONS :
+<select name="dropdown">
+ <option value= "PUBLICATIONS" selected>GLOBAL TIMES</option>
+</select><br>
+ <form action="..\Home Page\lpu_times.html" name="myForm" onsubmit="javascript:return validate();"><br>
+ 	<br>       DATE :<input type="date" name="date" required><br>
+
+<br><br>       EDITION :
+<br><br> <input type="radio" name="editions" value="PATNA" required>PATNA<br><br>
+          <input type="radio" name="editions" value="PUNJAB" required>PUNJAB<br><br>
+          <input type="radio" name="editions" value="KOLKATA" required>KOLKATA<br><br>
+          <input type="radio" name="editions" value="BENGALURU" required>BENGALURU<br><br>
+        <p style=color:white;>  <input type="radio" name="editions" value="CHENNAI" class="chennai" required>CHENNAI<br><br></p>
+ <br><br>     <p> SEARCH : <select name="dropdown" id="news" >
+ 							<option value= "a" selected >HOME</option>
+ 							<option value= "b" selected>LIFE&STYLE</option>
+ 							<option value= "c" selected>BUSINESS</option>
+ 							<option value= "d" selected>ENTERTAINMENT</option>
+ 							<option value= "e" selected>INTERNATIONAL NEWS</option>
+ 							<option value= "f" selected>NATIONAL NEWS</option>
+ 							<option value= "g" selected>SPORTS</option>
+ 							<option value= "h" selected>SCIENCE</option>
+ 							<option value= "i" selected>POLITICS</option>
+ 							<option value= "j" selected>Select your choice</option>
+ </select> </p><br>
+
+
+<br><br>        <input type="submit" name="submit" value="Submit"><br>
+
+</form>
+</body>
+</html>

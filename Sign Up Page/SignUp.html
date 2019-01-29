@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>Sign Up Page</title>
+  <script type="text/javascript" src="javascript7/signup_javascript.js"></script>
+  <link rel="stylesheet" type="text/css "href="SignUpCSS/style2.css" >
+</head>
+<body>
+  <div class="container">
+  <h1>SIGN UP</h1>
+  <form method="post" onsubmit="javascript:return validate();">
+    <div class="form-input">
+      <input id ="firstname" type="text" name="firstname" placeholder="First Name">
+      <input id ="lastname" type="text" name="lastname"  placeholder="Surname"><br/>
+      <input type="text" id ="email" name="emailname" placeholder="Email" >
+    </div>
+    <div class="form-input">
+      <input type="password" id="password" name="password" placeholder="Password"><br/>
+      <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
+    </div>
+    <input type="submit" name="submit" value="Start Now" class="btn-signup">
+  </form><br/><br/>
+  <p id="log">Have an account?</p><a class="connect" href="..\Login Page\loginpage.html">Log in</a>
+</div>
+<p>By starting, you agree to GLOBAL TIMES's Terms of Services and Privacy Policy.
+</body>
+</html>

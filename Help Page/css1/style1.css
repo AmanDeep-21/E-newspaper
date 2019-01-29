@@ -1,0 +1,55 @@
+body{
+
+  outline-style:double;
+  padding: 5px 20px 5px 20px ;
+}
+
+
+.main{
+  font-family:courier;
+  font-size: 40px;
+  text-align: center;
+  color:rgb(255,151,33);
+  border-bottom: 0.10px solid rgb(255,151,33);
+}
+
+.a1{
+  position: absolute;
+  font-size: 17px;
+  font-family: Calibri;
+  top:26px;
+  right:150px;
+  cursor: pointer;
+  color: rgba(50,50,50,0.8);
+  text-decoration: none;
+}
+.a1:hover{
+  color: DodgerBlue;
+}
+
+.a2{
+  position: absolute;
+  font-size:17px;
+  font-family: Calibri;
+  top:22px;
+  right:40px;
+  color: DodgerBlue;
+  border: 1px solid DodgerBlue;
+  padding: 3px 12px 3px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.a2:hover{
+  color: white;
+  background-color:DodgerBlue;
+  cursor: pointer;
+}
+
+p{
+  font-size: 16px;
+  font-family: Calibri;
+}
+.order{
+  font-size: 17px;
+  font-family: Calibri;
+}

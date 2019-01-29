@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Responsive feedback Form
+        </title>
+        <link rel="stylesheet" href="feed.css">
+        
+    </head>
+    <body>
+        <div class="main">
+            <div class="info">Give Your Feedback!</div>
+            <form action="#" method="post" name="form" class="form-box" autocomplete="off">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" class="inp" placeholder="Enter Your Name" required pattern="[a-zA-Z]+"><br>
+                <label for="email">Email ID</label><br>
+                <input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+                <label for="phone">phone</label><br>
+                <input type="tel" name="phone"pattern="^\d{10}$" class="inp" placeholder="Enter Your Phone"required pattern="[0-9]+"><br>
+                <label for="message">Message</label><br>
+                <textarea name="msg" id="msg-box" placeholder="Enetr Your Message Here...." required></textarea><br>
+                <input type="submit" name="submit" value="Send" class="sub-btn">
+            </form>
+        </div>
+
+    </body>
+</html>
